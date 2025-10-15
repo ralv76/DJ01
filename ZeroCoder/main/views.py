@@ -10,5 +10,6 @@ def new(request):
 def data(request):
     return HttpResponse("<h1>Page === Data</h1><a href=\"test\">На тест</a>")
 
+
 def test(request):
     return HttpResponse("<h1>Page === Test</h1><a href=\"data\">На дата</a>") 
