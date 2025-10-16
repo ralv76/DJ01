@@ -30,16 +30,18 @@
                                 <a href="{% url 'home' %}" class="text-decoration-none">Главная</a>
                             </li>
                             <li>
-                                <a href="new" class="text-decoration-none">Вторая</a>
+                                <a href="{% url 'new' %}" class="text-decoration-none">Вторая</a>
                             </li>
                             <li>
-                                <a href="new2" class="text-decoration-none">Третья</a>
+                                <a href="{% url 'new2' %}" class="text-decoration-none">Третья</a>
                             </li>
                             <li>
-                                <a href="new3" class="text-decoration-none">Четвёртая</a>
+                                <a href="{% url 'new3' %}" class="text-decoration-none">Четвёртая</a>
                             </li>
-                                                        
-                        </ul>
+                            <li>
+                                <a href="/news/" class="text-decoration-none">Новости</a>
+                            </li>      
+                                                    </ul>
                     </div>
                 </div>
             </aside>

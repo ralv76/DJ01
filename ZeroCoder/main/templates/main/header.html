@@ -16,15 +16,17 @@
                     <a class="nav-link active" href="{% url 'home' %}">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="new">Вторая</a>
+                    <a class="nav-link" href="{% url 'new' %}">Вторая</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="new2">Третья</a>
+                    <a class="nav-link" href="{% url 'new2' %}">Третья</a>
                 </li>                
                 <li class="nav-item">
-                    <a class="nav-link" href="new3">Четвёртая</a>
+                    <a class="nav-link" href="{% url 'new3' %}">Четвёртая</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" href="/news/">Новости</a>
+                </li>
             </ul>
         </div>
     </div>
